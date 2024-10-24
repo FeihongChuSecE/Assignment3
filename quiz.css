@@ -1,0 +1,58 @@
+/*Quiz requirement page*/
+h1 {
+  text-align: center;
+}
+
+.quizRequirement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 23px;
+}
+
+.inputName {
+  width: 300px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.buttonConfirm {
+  width: 100px;
+  height: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  cursor: pointer;
+}
+
+/*Quiz questions page*/
+* {
+  background-color: rgb(149, 240, 211);
+}
+
+.input {
+  display: none;
+}
+
+.label1,
+.label2,
+.label3,
+.label4 {
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: rgb(113, 216, 181);
+  margin-bottom: 10px;
+}
+
+#result {
+  font-size: large;
+  margin-top: 30px;
+}
+
+.submit {
+  width: 80px;
+  cursor: pointer;
+  font-size: larger;
+}
